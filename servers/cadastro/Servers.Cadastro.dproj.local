@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/27 13:04:20.000.840,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\Servers.Cadastro.dproj=C:\Users\zluan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/03/27 14:59:31.000.916,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 15:01:00.000.900,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\src\services\Services.Clientes.dfm=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\Unit1.dfm</Transaction>
+    <Transaction>2021/03/27 15:01:00.000.900,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\src\services\Services.Clientes.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 15:32:09.000.017,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 15:33:05.000.727,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\src\controllers\Controllers.Clientes.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\cadastro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 20:37:34.000.134,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\commons\Commons.Middleware.Auth.pas</Transaction>
+  </Transactions>
+</BorlandProject>

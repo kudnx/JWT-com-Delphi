@@ -1,0 +1,19 @@
+program Servers.Auth;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils,
+  Services.Auth in 'src\services\Services.Auth.pas' {ServicesAuth: TDataModule},
+  Controllers.Auth in 'src\controllers\Controllers.Auth.pas';
+
+begin
+  try
+    { TODO -oUser -cConsole Main : Insert code here }
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+end.

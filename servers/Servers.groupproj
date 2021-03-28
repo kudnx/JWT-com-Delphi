@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{9E8E8710-3D43-41F0-996B-EDA3950E1BE0}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="cadastro\Servers.Cadastro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="financeiro\Servers.Financeiro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="auth\Servers.Auth.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Servers_Cadastro">
+        <MSBuild Projects="cadastro\Servers.Cadastro.dproj"/>
+    </Target>
+    <Target Name="Servers_Cadastro:Clean">
+        <MSBuild Projects="cadastro\Servers.Cadastro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Servers_Cadastro:Make">
+        <MSBuild Projects="cadastro\Servers.Cadastro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Servers_Financeiro">
+        <MSBuild Projects="financeiro\Servers.Financeiro.dproj"/>
+    </Target>
+    <Target Name="Servers_Financeiro:Clean">
+        <MSBuild Projects="financeiro\Servers.Financeiro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Servers_Financeiro:Make">
+        <MSBuild Projects="financeiro\Servers.Financeiro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Servers_Auth">
+        <MSBuild Projects="auth\Servers.Auth.dproj"/>
+    </Target>
+    <Target Name="Servers_Auth:Clean">
+        <MSBuild Projects="auth\Servers.Auth.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Servers_Auth:Make">
+        <MSBuild Projects="auth\Servers.Auth.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Servers_Cadastro;Servers_Financeiro;Servers_Auth"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Servers_Cadastro:Clean;Servers_Financeiro:Clean;Servers_Auth:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Servers_Cadastro:Make;Servers_Financeiro:Make;Servers_Auth:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

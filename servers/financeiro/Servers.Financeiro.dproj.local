@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/27 16:19:21.000.819,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\Servers.Financeiro.dproj=C:\Users\zluan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/03/27 16:23:14.000.499,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 16:23:57.000.719,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\src\services\Services.Produtos.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 16:23:57.000.719,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\src\services\Services.Produtos.dfm=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\Unit1.dfm</Transaction>
+    <Transaction>2021/03/27 16:29:55.000.529,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 16:30:40.000.117,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\src\controllers\Controllers.Produtos.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\financeiro\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 21:08:58.000.198,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\commons\Commons.Middleware.Auth.pas</Transaction>
+  </Transactions>
+</BorlandProject>

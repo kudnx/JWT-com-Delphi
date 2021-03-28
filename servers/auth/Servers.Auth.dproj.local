@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/03/27 18:31:44.000.294,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Servers.Auth.dproj=C:\Users\zluan\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/03/27 18:34:55.000.742,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 18:35:51.000.983,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\src\services\Services.Auth.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 18:35:51.000.983,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\src\services\Services.Auth.dfm=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.dfm</Transaction>
+    <Transaction>2021/03/27 19:16:21.000.428,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 19:16:59.000.002,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\src\controllers\Controllers.Auth.pas</Transaction>
+    <Transaction>2021/03/27 20:31:25.000.887,=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.pas</Transaction>
+    <Transaction>2021/03/27 20:32:12.000.818,C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\auth\Unit1.pas=C:\Users\zluan\Documents\Projetos\Delphi\JWT\servers\commons\Commons.Middleware.Auth.pas</Transaction>
+  </Transactions>
+</BorlandProject>

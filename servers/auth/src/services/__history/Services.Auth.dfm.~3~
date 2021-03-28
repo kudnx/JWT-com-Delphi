@@ -1,0 +1,51 @@
+object ServicesAuth: TServicesAuth
+  OldCreateOrder = False
+  Height = 150
+  Width = 215
+  object Connection: TFDConnection
+    Params.Strings = (
+      'Database=C:\sqlite\database.db'
+      'DriverID=SQLite')
+    Connected = True
+    LoginPrompt = False
+    Left = 144
+    Top = 80
+  end
+  object qryUsuarios: TFDQuery
+    Connection = Connection
+    SQL.Strings = (
+      'select * from usuarios'
+      'where login = :login and senha = :senha')
+    Left = 56
+    Top = 40
+    ParamData = <
+      item
+        Name = 'LOGIN'
+        ParamType = ptInput
+      end
+      item
+        Name = 'SENHA'
+        ParamType = ptInput
+      end>
+    object qryUsuariosid: TFDAutoIncField
+      FieldName = 'id'
+      Origin = 'id'
+      ProviderFlags = [pfInWhere, pfInKey]
+    end
+    object qryUsuariosnome: TStringField
+      FieldName = 'nome'
+      Origin = 'nome'
+      Size = 100
+    end
+    object qryUsuarioslogin: TStringField
+      FieldName = 'login'
+      Origin = 'login'
+      Size = 100
+    end
+    object qryUsuariossenha: TStringField
+      FieldName = 'senha'
+      Origin = 'senha'
+      Size = 100
+    end
+  end
+end
